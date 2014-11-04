@@ -1,6 +1,6 @@
 {
   "name": "cometd-jquery",
-  "version": "3.0.0",
+  "version": "3.0.1",
   "description": "JavaScript CometD Bayeux implementation with jQuery bindings packaged for npm users.",
   "author": "Wil Moore III <wil.moore@wilmoore.com>",
   "contributors": [
