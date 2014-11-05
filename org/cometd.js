@@ -16,7 +16,7 @@
 
 // Namespaces for the cometd implementation
 this.org = this.org || {};
-org = org || {};
+var org = org || {};
 org.cometd = {};
 
 org.cometd.JSON = {};
