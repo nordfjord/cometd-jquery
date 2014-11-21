@@ -104,7 +104,7 @@
             return that;
         }
 
-        $.CometD = function(name)
+        $.Cometd = function(name)
         {
             var cometd = new org_cometd.CometD(name);
 
