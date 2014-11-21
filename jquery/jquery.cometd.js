@@ -120,7 +120,7 @@
         };
 
         // The default cometd instance
-        $.cometd = new $.CometD();
+        $.cometd = new $.Cometd();
 
         return $.cometd;
     }
