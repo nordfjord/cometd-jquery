@@ -58,8 +58,11 @@
             that.jsonpSend = function ( packet ) {
                 m.request( {
                     url: packet.url,
-                    type: 'GET',
+                    method: 'GET',
                     dataType: 'jsonp',
+                    data: {
+                        message: packet.body
+                    },
                     callbackKey: 'jsonp',
                     config: function ( xhr ) {
                         _setHeaders( xhr, packet.headers );
